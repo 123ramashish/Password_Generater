@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captcha Generator Using JS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+
+<div class="refresh">
+    <h2 id="show-captcah">Click on Refresh</h2>
+    <button type="btn" class="button" onclick="myinput()">Refresh</button>
+</div>
+
+<div class="pass-len">
+
+    <div id="length">
+    <p>Password Length</p>
+    <input type="number" id="inputlength"  max="20" min="5">
+</div>
+
+    <div id="uppercase">
+        <p>Contain Uppercase</p>
+        <input type="checkbox" id=" uppertext" >
+    </div>
+
+        <div id="lowercase">
+        <p>Contain Lowercase</p>
+        <input type="checkbox" id="lowertext"></div>
+
+        <div id="number">
+        <p>Contain Number</p>
+        <input type="checkbox" id=" numbertype"></div>
+
+        <div id="symbol">
+        <p>Contain symbol </p>
+        <input type="checkbox" id="symboltype"></div>
+</div>
+<div class="fill">
+    <input placeholder="Fill Captcha" id="pass-fill" style="margin-bottom:10px">
+    <input type="button"value="submit" id="submit" onclick="mysubmit()">
+</div>
+    </div>
+
+
+    <footer id="footer">
+        <p>copywrite 2023 @R.A.R</p>
+    </footer>
+    <script type="text/javascript" src="script.js">  
+    </script>
+    
+</body>
+</html>

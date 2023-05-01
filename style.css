@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Yanone+Kaffeesatz:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-color: aquamarine;
+}
+
+
+.main{
+    max-width:80%;
+    min-height: 50vh;
+    border-radius: 10px; 
+    background-color: rgb(21, 244, 170);
+     margin:auto; 
+     margin-top: 10%;
+    box-shadow: 0 2px 5px 0 rgb(28, 153, 88), 0 5px 10px 0 rgb(28, 153, 88) ;
+}
+.refresh{
+    display: flex;
+padding:5px ;
+}
+#show-captcah{
+    background-color: white;
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 7px;
+    width:70% ;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-weight: 100;
+
+}
+.button{
+    margin-left: 8px;
+    font-size: 15px;
+    padding: 5px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(235, 227, 134);
+
+}
+.button:hover{
+    background-color: rgb(201, 201, 227);
+}
+
+.pass-len{
+    margin-left: 2%;
+}
+#length{
+    display: flex;
+    padding-top: 10px;
+}
+#length input{
+    width: 20%;
+    margin-left: 32.5%;
+    border: none;
+    border-radius: 5px;
+    padding: 3px;
+    font-size: 15px;
+    outline: none;
+}
+#uppercase{
+    display: flex;
+    padding-top: 15px;
+
+}
+#uppercase input{
+    
+    width: 20%;
+    margin-left: 32%;
+    border: none;
+    outline: none;
+
+}
+#lowercase input{
+    
+    width: 20%;
+    margin-left: 32%;
+    border: none;
+    outline: none;
+
+}
+#number input{
+    
+    width: 20%;
+    margin-left: 38%;
+    border: none;
+    outline: none;
+
+}
+#symbol input{
+    
+    width: 20%;
+    margin-left: 40%;
+    border: none;
+    outline: none;
+
+}
+
+#lowercase{
+    display: flex;
+    padding-top: 15px;
+
+}
+
+#number{
+    display: flex;
+    padding-top: 15px;
+
+}
+#symbol{
+    display: flex;
+    padding-top: 15px;
+
+}
+.fill{
+    margin: 40px 2%;
+}
+#pass-fill{
+    border: 2px solid rgb(145, 141, 141);
+    border-radius: 7px;
+    font-size: 20px;
+    padding: 7px;
+    width:70% ;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-weight: 800;
+}
+#submit{
+    margin-left: 8px;
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+    border-radius: 7px;
+    background-color: rgb(45, 52, 239);
+    color: rgb(224, 224, 154);
+
+}
+#submit:hover{
+    background-color: rgb(94, 94, 65);
+}
+
+#footer{
+    padding-top: 20px;
+    text-align: center;
+}
+  @media (min-width:900px){
+    .main{
+        max-width: 40%;
+        min-height: 55vh;
+    }
+#length input{
+    width: 10%;
+    margin-left: 50%;
+    
+}
+#uppercase input, #lowercase input{
+    margin-left: 45%;
+    }
+    #number input{
+        margin-left: 48.5%;
+ 
+    }
+    #symbol input{
+        margin-left: 49.5%;
+ 
+    }
+
+  }
+
+
+
+
+
+ 
